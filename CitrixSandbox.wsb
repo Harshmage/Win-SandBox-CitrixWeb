@@ -1,0 +1,18 @@
+<!-- REPLACE D:\sandbox -->
+<Configuration>
+  <!-- ProtectedClient disables hotkeys in the Sandbox, so Win+R will open your HOST machine's Run command. -->
+  <!--  
+  <ProtectedClient>Enable</ProtectedClient>
+  -->
+  <ClipboardRedirection>Disable</ClipboardRedirection>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\sandbox</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\sandbox</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>C:\Users\WDAGUtilityAccount\Downloads\sandbox\CitrixWorkspaceInstall.cmd</Command>
+  </LogonCommand>
+</Configuration>
